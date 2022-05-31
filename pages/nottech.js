@@ -15,7 +15,7 @@ export default function NotTech( ) {
             <Flex justify='space-evenly' mb='3em' mt='3em' >
                 <Center ml='10em'>
                     <Box p='4'>
-                        <Heading size='2xl' pb='1em'>"Нетехнічні" професії</Heading>
+                        <Heading size='2xl' pb='1em'>&ldquo;Нетехнічні&ldquo; професії</Heading>
                         <Text fontSize='xl'>Якщо сидіти і писати код це не про вас,
                             <br/>то IT сфера також має що запропонувати </Text>
                     </Box>

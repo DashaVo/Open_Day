@@ -40,17 +40,17 @@ export default function Layout({ children, home }) {
             )}
             <footer className={styles.footer}>
                 <div className={styles.author}>
-                    <a className={styles.fItem} target="_blank" href='https://initki.vntu.edu.ua/'>Факультет ІТКІ</a>
+                    <a className={styles.fItem} rel="noreferrer" target="_blank" href='https://initki.vntu.edu.ua/'>Факультет ІТКІ</a>
                 </div>
                 <div className={styles.social}>
-                    <a className={styles.fItem} target="_blank" href='https://vm.tiktok.com/ZMN1CmhSj/'><FaTiktok size={24}/></a>
-                    <a className={styles.fItem} target="_blank"  href='https://www.instagram.com/vntu_fitki/'><FaInstagram size={24}/></a>
-                    <a className={styles.fItem} target="_blank"href='https://www.facebook.com/groups/fitki.vntu'><FaFacebook size={24}/></a>
+                    <a className={styles.fItem} rel="noreferrer" target="_blank" href='https://vm.tiktok.com/ZMN1CmhSj/'><FaTiktok size={24}/></a>
+                    <a className={styles.fItem}  rel="noreferrer" target="_blank"  href='https://www.instagram.com/vntu_fitki/'><FaInstagram size={24}/></a>
+                    <a className={styles.fItem}  rel="noreferrer" target="_blank"href='https://www.facebook.com/groups/fitki.vntu'><FaFacebook size={24}/></a>
                 </div>
                 <div className={styles.depart}>
-                    <a className={styles.fItem} target="_blank" href='http://ot.vntu.edu.ua/'>Кафедра ОТ</a>
-                    <a className={styles.fItem} target="_blank" href='https://zi.vntu.edu.ua/'>Кафедра ЗІ</a>
-                    <a className={styles.fItem} target="_blank" href='https://pz.vntu.edu.ua/'>Кафедра ПЗ</a>
+                    <a className={styles.fItem} rel="noreferrer" target="_blank" href='http://ot.vntu.edu.ua/'>Кафедра ОТ</a>
+                    <a className={styles.fItem}  rel="noreferrer" target="_blank" href='https://zi.vntu.edu.ua/'>Кафедра ЗІ</a>
+                    <a className={styles.fItem} rel="noreferrer" target="_blank" href='https://pz.vntu.edu.ua/'>Кафедра ПЗ</a>
                 </div>
             </footer>
         </div>

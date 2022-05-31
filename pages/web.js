@@ -13,8 +13,8 @@ export default function Web( ) {
         </Head>
 
         <div>
-            <Flex mb='4em' >
-                <Center ml='10em'>
+            <Flex mb={['1em','4em']} direction={['column','row']} >
+                <Center ml={['4em','10em']}>
                     <Box p='4' w='25em'>
                         <Heading size='2xl'  pb='1em'>Web Developer</Heading>
                         <Text fontSize='xl'>Веб-розробка відноситься до створення, створення та підтримки веб-сайтів . Він включає в себе такі аспекти, як веб-дизайн, веб-видавництво, веб-програмування та керування базами даних.</Text>

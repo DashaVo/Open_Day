@@ -28,7 +28,7 @@
     flex-direction: column;
 }
 .fItem{
-    padding: 1em;
+    padding: 0.5rem;
 }
 .social{
     display: flex;
